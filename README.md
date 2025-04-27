@@ -16,9 +16,7 @@ NetworkX・Pandas・Streamlitを利用しています。
 2. 必要なパッケージをインストールします。
 
 ```bash
-pip install .
-# または
-pip install -r requirements.txt
+uv sync
 ```
 
 ## 使い方
@@ -26,7 +24,7 @@ pip install -r requirements.txt
 1. `src/main.py` をStreamlitで実行します。
 
 ```bash
-streamlit run src/main.py
+uv run streamlit run src/main.py
 ```
 
 2. ブラウザで表示される画面から
